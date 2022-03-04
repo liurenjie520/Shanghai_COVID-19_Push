@@ -34,7 +34,7 @@ class weiboMonitor():
             'Connection': 'close',
             'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
         }
-        self.uid = ['6395178860']  # 这里添加关注人的uid
+        self.uid = ['1918021250']  # 这里添加关注人的uid
 
     # 获取访问连接
     def getweiboInfo(self):
