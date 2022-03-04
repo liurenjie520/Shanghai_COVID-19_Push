@@ -109,7 +109,7 @@ def panduanisgy(urlid):
                     "appToken": "AT_iaPxpUE0FLNUECu1zFnKhFR7R9NU5K8e",
                     "content": content,
                     "summary": f"有上海市新冠肺炎疫情防控新闻发布会！",
-                    "contentType": 1,
+                    "contentType": 2,
 
                     "topicIds": [
 
