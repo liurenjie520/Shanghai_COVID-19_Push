@@ -84,6 +84,11 @@ def panduanisgy(urlid):
     zifu='直播预告'
     zifu2='疫情防控'
     zifu3='新闻发布会'
+
+    cc=re.findall(r"[0-9]+场", textwenben)  #
+    str1 = ''.join(cc)
+
+
     if  zifu in textwenben:
 
         if zifu2 in textwenben:
@@ -108,7 +113,7 @@ def panduanisgy(urlid):
                 FormData = {
                     "appToken": "AT_iaPxpUE0FLNUECu1zFnKhFR7R9NU5K8e",
                     "content": content,
-                    "summary": f"有上海市新冠肺炎疫情防控新闻发布会！",
+                    "summary": f"直播预告：上海市新冠肺炎疫情防控新闻发布会！\n"+'场次 ：第 '+str1+' ！！！',
                     "contentType": 2,
 
                     "topicIds": [
@@ -155,8 +160,8 @@ def lastfanhui(urlid):
 
     last_time = datetime.datetime.now() + datetime.timedelta(days=6)
     last_bd = last_time.strftime('%Y%m%d')
-    print(last_bd)
-    print(bd)
+    # print(last_bd)
+    # print(bd)
     urlid=str(urlid)
     url='https://m.weibo.cn/status/'+urlid
 
@@ -168,9 +173,9 @@ def lastfanhui(urlid):
 
 
 # if __name__ == '__main__':
-#     gt=lastfanhui(4735294307568601)
+#     gt=lastfanhui(4746911209229675)
 #     #4677399825875715
-#
+# 
 #     print(gt)
 
 
