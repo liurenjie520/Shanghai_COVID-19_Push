@@ -28,4 +28,4 @@ Python
 3. 提交代码
 4. 新建 Pull Request
 #### License
-MIT License
+GPL-3.0 License
