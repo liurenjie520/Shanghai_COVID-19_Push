@@ -87,6 +87,29 @@ def panduanisgy(urlid):
 
     cc=re.findall(r"[0-9]+场", textwenben)  #
     str1 = ''.join(cc)
+    # print(str1)
+
+    date_all = re.findall(r"([01]\d|2[0-3]):([0-5]\d)", textwenben)  #
+    # str2 = ''.join(timee)
+    ttt=''
+
+
+    for item in date_all:
+
+        ttt=item[0]+':'+item[1]
+
+    q = ''
+    try:
+        quyu = re.findall(r"\D\D区", textwenben)  #
+
+        for qy in quyu:
+            q += qy
+    except:
+        q ='未知'
+
+
+
+
 
 
     if  zifu in textwenben:
@@ -113,7 +136,7 @@ def panduanisgy(urlid):
                 FormData = {
                     "appToken": "AT_iaPxpUE0FLNUECu1zFnKhFR7R9NU5K8e",
                     "content": content,
-                    "summary": f"直播预告：上海市新冠肺炎疫情防控新闻发布会！\n"+'场次 ：第 '+str1+' ！！！',
+                    "summary": f"直播预告：上海市新冠肺炎疫情防控新闻发布会！\n"+'场次 ：第 '+str1+' ！！！\n'+'时间：'+ttt+'\n'+'汇报区域：'+q,
                     "contentType": 2,
 
                     "topicIds": [
@@ -173,9 +196,9 @@ def lastfanhui(urlid):
 
 
 # if __name__ == '__main__':
-#     gt=lastfanhui(4746911209229675)
-#     #4677399825875715
-# 
+#     gt=lastfanhui(4744764468234687)
+#     #4677399825875715  4744764468234687   4746911209229675
+#
 #     print(gt)
 
 
