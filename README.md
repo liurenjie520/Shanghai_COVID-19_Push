@@ -18,6 +18,8 @@ Python
 1. 注册消息https://wxpusher.zjiecode.com/docs/#/拿到token
 2. 替换你的发送链接
 3. 点击运行
+4.![image](https://user-images.githubusercontent.com/26820680/158502967-00d1d458-2a16-4290-8611-0fc8a29d0fbf.png)
+
 
 #### 参与贡献
 
