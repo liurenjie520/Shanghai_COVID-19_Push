@@ -1,4 +1,4 @@
-# shanghaiCOVID-19
+# ShanghaiCOVID-19Push
 
 #### 介绍
 这是一个关于上海COVID-19发布会的微信通知系统。
