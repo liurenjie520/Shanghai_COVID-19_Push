@@ -27,4 +27,4 @@ Python
 3. 提交代码
 4. 新建 Pull Request
 #### License
-GPL-3.0 License
+[Apache-2.0 License](https://hacpai.com/article/1577370404903?utm_source=github.com)
