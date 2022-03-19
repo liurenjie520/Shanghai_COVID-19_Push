@@ -8,15 +8,15 @@ Python
 
 #### 安装教程
 
-1. 使用gitaction定时每5分钟运行
-2. 输入要推送的微信请求
-3. ok
+1. 先找到一个推送微信的接口，替换你的微信的接口链接
+2. 使用gitaction定时每5分钟运行
+3. 没了
 
 #### 使用说明
 
-1. 注册消息https://wxpusher.zjiecode.com/docs/#/拿到token
-2. 替换你的发送链接
-3. 点击运行
+1.先找到一个推送微信的接口，替换你的微信的接口链接。例如这个：注册消息https://wxpusher.zjiecode.com/docs/#/拿到token 
+2. 凑数用...
+3. 效果如下：
 4. ![image](https://user-images.githubusercontent.com/26820680/158502967-00d1d458-2a16-4290-8611-0fc8a29d0fbf.png)
 
 
